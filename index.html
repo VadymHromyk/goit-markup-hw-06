@@ -21,7 +21,7 @@
   </head>
 
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <div class="container header-section">
         <a href="./index.html" class="logo"
           ><span class="logo-first-word">WEB</span
@@ -41,17 +41,17 @@
           </ul>
         </address>
       </div>
-    </header>
+    </header> -->
 
     <main>
-      <section id="studio" class="hero-section">
+      <!-- <section id="studio" class="hero-section">
         <div class="container hero-container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
 
       <section class="features-section">
         <div class="container">
@@ -64,7 +64,7 @@
                 </svg>
               </div>
               <h3 class="feature-card-title">Strategy</h3>
-              <p>
+              <p class="feature-card-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -76,7 +76,7 @@
                 </svg>
               </div>
               <h3 class="feature-card-title">Punctuality</h3>
-              <p>
+              <p class="feature-card-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -88,7 +88,7 @@
                 </svg>
               </div>
               <h3 class="feature-card-title">Diligence</h3>
-              <p>
+              <p class="feature-card-text">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
               </p>
@@ -100,7 +100,7 @@
                 </svg>
               </div>
               <h3 class="feature-card-title">Technologies</h3>
-              <p>
+              <p class="feature-card-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -115,6 +115,10 @@
           <ul class="ourteam-list">
             <li class="ourteam-card">
               <img
+                srcset="
+                  ./images/MarkGuerrero.jpg    1x,
+                  ./images/MarkGuerrero-2x.jpg 2x
+                "
                 src="./images/MarkGuerrero.jpg"
                 alt="photo Mark Guerrero"
                 width="264"
@@ -181,6 +185,7 @@
             </li>
             <li class="ourteam-card">
               <img
+                srcset="./images/TomFord.jpg 1x, ./images/TomFord-2x.jpg 2x"
                 src="./images/TomFord.jpg"
                 alt="photo Tom Ford"
                 width="264"
@@ -247,6 +252,10 @@
             </li>
             <li class="ourteam-card">
               <img
+                srcset="
+                  ./images/CamilaGarcia.jpg    1x,
+                  ./images/CamilaGarcia-2x.jpg 2x
+                "
                 src="./images/CamilaGarcia.jpg"
                 alt="photo Camila Garcia"
                 width="264"
@@ -313,6 +322,10 @@
             </li>
             <li class="ourteam-card">
               <img
+                srcset="
+                  ./images/DanielWilson.jpg    1x,
+                  ./images/DanielWilson-2x.jpg 2x
+                "
                 src="./images/DanielWilson.jpg"
                 alt="photo Daniel Wilson"
                 width="264"
@@ -388,11 +401,15 @@
             <li class="ourportfolio-card">
               <div class="ourportfolio-image-wrapper">
                 <img
-                  src="./images/banking-app.jpg"
+                  srcset="
+                    ./images/banking-app-mob.jpg    1x,
+                    ./images/banking-app-mob-2x.jpg 2x
+                  "
+                  src="./images/banking-app-mob.jpg"
                   alt="Banking app"
                   class="ourportfolio-card-image"
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="200"
                 />
                 <div class="hover-layer">
                   <p class="hover-text">
@@ -403,19 +420,23 @@
                 </div>
               </div>
               <div class="ourportfolio-card-content">
-                <h3 class="card-title ourportfolio-text-align">Banking App</h3>
-                <p class="card-text ourportfolio-text-align">App</p>
+                <h3 class="card-title ourportfolio-card-text">Banking App</h3>
+                <p class="ourportfolio-card-text">App</p>
               </div>
             </li>
             <li class="ourportfolio-card">
               <div class="ourportfolio-image-wrapper">
                 <div class="ourportfolio-image-wrapper">
                   <img
-                    src="./images/cashless-payment.jpg"
+                    srcset="
+                      ./images/cashless-payment-mob.jpg    1x,
+                      ./images/cashless-payment-mob-2x.jpg 2x
+                    "
+                    src="./images/cashless-payment-mob.jpg"
                     alt="Cashless payment"
                     class="ourportfolio-card-image"
-                    width="360"
-                    height="300"
+                    width="288"
+                    height="200"
                   />
                   <div class="hover-layer">
                     <p class="hover-text">
@@ -436,11 +457,15 @@
             <li class="ourportfolio-card">
               <div class="ourportfolio-image-wrapper">
                 <img
-                  src="./images/meditation-app.jpg"
+                  srcset="
+                    ./images/meditation-app-mob.jpg    1x,
+                    ./images/meditation-app-mob-2x.jpg 2x
+                  "
+                  src="./images/meditation-app-mob.jpg"
                   alt="Meditation App"
                   class="ourportfolio-card-image"
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="200"
                 />
                 <div class="hover-layer">
                   <p class="hover-text">
@@ -460,11 +485,15 @@
             <li class="ourportfolio-card">
               <div class="ourportfolio-image-wrapper">
                 <img
-                  src="./images/taxi-service.jpg"
+                  srcset="
+                    ./images/taxi-service-mob.jpg    1x,
+                    ./images/taxi-service-mob-2x.jpg 2x
+                  "
+                  src="./images/taxi-service-mob.jpg"
                   alt="Taxi Service"
                   class="ourportfolio-card-image"
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="200"
                 />
                 <div class="hover-layer">
                   <p class="hover-text">
@@ -482,11 +511,15 @@
             <li class="ourportfolio-card">
               <div class="ourportfolio-image-wrapper">
                 <img
-                  src="./images/screen.jpg"
+                  srcset="
+                    ./images/screen-mob.jpg    1x,
+                    ./images/screen-mob-2x.jpg 2x
+                  "
+                  src="./images/screen-mob.jpg"
                   alt="Screen Illustrations"
                   class="ourportfolio-card-image"
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="200"
                 />
                 <div class="hover-layer">
                   <p class="hover-text">
@@ -506,11 +539,15 @@
             <li class="ourportfolio-card">
               <div class="ourportfolio-image-wrapper">
                 <img
-                  src="./images/online-courses.jpg"
+                  srcset="
+                    ./images/online-courses-mob.jpg    1x,
+                    ./images/online-courses-mob-2x.jpg 2x
+                  "
+                  src="./images/online-courses-mob.jpg"
                   alt="Online Courses"
                   class="ourportfolio-card-image"
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="200"
                 />
                 <div class="hover-layer">
                   <p class="hover-text">
@@ -532,7 +569,7 @@
       </section>
     </main>
 
-    <footer class="footer-section">
+    <!-- <footer class="footer-section">
       <div class="container footer-container">
         <div class="footer-info">
           <a href="./index.html" class="logo footer-logo"
@@ -628,7 +665,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <div class="overlay" data-modal>
       <div class="modal">
