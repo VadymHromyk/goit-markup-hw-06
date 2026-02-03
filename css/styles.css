@@ -209,9 +209,7 @@ header .logo-second-word {
   display: inline-block;
 }
 
-.mob-menu-nav-link:hover,
-.mob-menu-nav-link:focus,
-.mob-menu-nav-link.is-active {
+.mob-menu-nav-item .accent-mob-menu-nav {
   color: #404bbf;
 }
 
@@ -237,9 +235,8 @@ header .logo-second-word {
   letter-spacing: 0.02em;
 }
 
-.mob-menu-address-link:hover,
-.mob-menu-address-link:focus {
-  color: #404bbf;
+.accent-mob-menu-address {
+  color: #4d5ae5;
 }
 
 .mob-menu-contact-section .mob-menu-social-icon-list {
@@ -485,6 +482,7 @@ header .logo-second-word {
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  width: 100%;
 }
 
 .ourportfolio-card-content {
@@ -798,7 +796,7 @@ footer .logo-second-word {
   display: inline;
 }
 
-.form-checkbox:checked + .form-label span {
+.form-checkbox:checked + .form-label .form-checkbox-custom {
   background-color: #404bbf;
   border-color: #404bbf;
   fill: #f4f4fd;
@@ -939,12 +937,13 @@ footer .logo-second-word {
     justify-content: center;
   }
 
-  .footer-section {
-    padding: 96px 0 96px 108px;
+  .ourportfolio-card {
+    width: calc((100% - 24px) / 2);
   }
 
   .footer-container {
     justify-content: flex-start;
+    padding-left: 108px;
   }
 
   .footer-info-social {
@@ -954,6 +953,7 @@ footer .logo-second-word {
 
   .footer-info {
     width: 264px;
+    margin-bottom: 0;
   }
 
   .footer-logo {
@@ -1059,6 +1059,7 @@ footer .logo-second-word {
   .ourportfolio-card {
     box-shadow: none;
     transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    width: calc((100% - 48px) / 3);
   }
 
   .ourportfolio-card:hover,
